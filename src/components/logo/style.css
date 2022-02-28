@@ -1,0 +1,42 @@
+
+.logo{
+    position: relative;
+    width: 32px;
+    height: 29px;
+}
+.smile{
+ position: absolute;
+left: 0px;
+right: 17px;
+top: 10px;
+bottom:0;
+height: 13px;
+z-index: 5;
+
+}
+
+.second{
+
+    position: absolute;
+    top:-2px;
+    right: 0.4px;
+    z-index: -3;
+    
+}
+.first{
+    z-index: 4;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+.up{
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    top: 6px;
+    position: absolute;
+    right: 5px;
+    z-index: 10;
+
+}
+
